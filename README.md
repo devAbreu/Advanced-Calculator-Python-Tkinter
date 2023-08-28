@@ -109,6 +109,44 @@ To view the operation history, click the "Show History" button.
 - Tkinter for GUI
 - Threading for parallel computations
 - Decorators for logging
+Por supuesto, aquí tienes una sección que puedes agregar al README.md para documentar los tests:
+
+### Running Tests
+
+This project includes a set of tests to ensure the correctness of its functionalities. The tests are implemented using the `pytest` framework. To run the tests, follow these steps:
+
+1. Make sure you have `pytest` installed. If not, you can install it using the following command:
+   
+   ```
+   pip install pytest
+   ```
+
+2. Navigate to the root directory of the project using the command line.
+
+3. Run the tests by executing the following command:
+   
+   ```
+   pytest
+   ```
+
+   The tests will automatically discover and run all the test files in the project. You will see output indicating the status of each test case. If all tests pass, you should see something like this:
+
+   ```
+   ============================= test session starts =============================
+   platform darwin -- Python 3.11.4, pytest-7.2.2, pluggy-1.0.0
+   rootdir: /path/to/your/project
+   collected 8 items                                                           
+
+   test_calculator.py ....                                                 [ 50%]
+   test_list_operations.py ...                                             [ 75%]
+   test_main.py ...                                                        [100%]
+
+   ============================= 8 passed in 0.15s ==============================
+   ```
+
+   Any failed tests will be highlighted in the output, helping you identify which parts of the code need attention.
+
+   The tests cover various aspects of the project, including the calculator's operations, list operations, and GUI interactions. Running these tests regularly can catch and fix issues early in the development process.
 
 ## Future Enhancements
 
@@ -147,5 +185,3 @@ Allow users to sync their calculation history and preferences to the cloud, maki
 
 ## License
 This project is licensed under the MIT License.
-
----
