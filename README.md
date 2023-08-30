@@ -109,7 +109,6 @@ To view the operation history, click the "Show History" button.
 - Tkinter for GUI
 - Threading for parallel computations
 - Decorators for logging
-Por supuesto, aquí tienes una sección que puedes agregar al README.md para documentar los tests:
 
 ### Running Tests
 
